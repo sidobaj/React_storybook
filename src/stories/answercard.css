@@ -1,0 +1,145 @@
+/* .main_card{
+    background-color: rgba(9, 180, 248, 0.219);
+} */
+
+.container {
+    width: 100%;
+    height: auto;
+    padding: 3px;
+    /* margin: 3px; */
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    justify-content: space-evenly;
+    /* background-color: #f8f8f8; */
+    font-family: sans-serif;
+}
+
+.user {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    float: left;
+}
+
+.top_side{
+    color: goldenrod;
+    float: left;
+    margin-left: 15px;
+    font-size: small;
+    font-weight: bold;
+}
+
+.user_name{
+    margin-left: 15px;
+    font-size: medium;
+    font-weight: bold;
+    /* font-family: 'Times New Roman', Times, serif; */
+}
+
+.user_details{
+    font-size: small;
+}
+
+.update_time{
+    /* margin-left: 43px; */
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-size: medium;
+
+
+}
+
+/* .answer_details{
+    margin-left: 43px;
+} */
+
+.main_body_usser {
+    margin-left: 43px; 
+    font-size: 14px;
+}
+
+.feature{
+    /* margin-left: 50px;  */
+    height: 50px;
+    background-color: #fff;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    /* margin-bottom: 20px; */
+}
+
+.update_share{
+    margin-left: 20px;
+}
+.update_share_text{
+    margin-left: 5px;
+    text-decoration: underline;
+    cursor: pointer; 
+    margin-right: 30px;
+}
+
+.update_edit_text{
+    margin-left: 5px;
+    text-decoration: underline;
+    cursor: pointer; 
+    margin-right: 30px;
+}
+
+.update_fquestion_text{
+    margin-left: 5px;
+    text-decoration: underline;
+    cursor: pointer; 
+    margin-right: 30px;
+}
+
+.user_button_comment{
+    float: right;
+    /* border-radius: 10%; */
+    border: 2px solid black;
+    width: 135px;
+    height: 25px;
+    border-radius: 5px;
+    margin-left: 650px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.user_comment{
+    /* height: auto; */
+    margin-left: 43px;
+    font-size: small;
+}
+
+.show_comment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.answer_container{
+    display: flex;
+    flex-direction: row;
+}
+
+.icon_container{
+    width: 30px;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.accept_answer{
+    margin-right: 10px;
+}
+
+.paragraph_container{
+    width: 100%;
+    align-items: flex-start;
+    
+}
